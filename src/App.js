@@ -1,9 +1,12 @@
+import Form from "./components/Form";
+
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <h1>Roller Coaster Maddness</h1>
+      <h1 className="title">Roller Coaster Maddness</h1>
+      <Form />
     </div>
   );
 }
