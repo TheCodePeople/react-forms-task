@@ -1,9 +1,11 @@
+import React from "react";
 import "./App.css";
+import RegistrationForm from "./Components/RegistrationForm";
 
 function App() {
   return (
     <div>
-      <h1>Roller Coaster Maddness</h1>
+      <RegistrationForm />
     </div>
   );
 }
